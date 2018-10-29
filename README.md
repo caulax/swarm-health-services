@@ -23,9 +23,9 @@
 
 ### Example run
 `python main.py -u USERNAME_TRIGGED_BY -st SLACK_TOKEN -e ENV -pn PROJECT_NAME -c COMMAND1 -c COMMAND2`  
-_-u - username who started deploy_  
+_-u* - username who started deploy_  
 _-st - token for Slack App_  
 _-e - environment where deploy was started_  
-_-pn - project name_  
-_-c - commands to deploy_  
-_*All parameters are required_ 
+_-pn* - project name_  
+_-c* - commands to deploy_  
+_* - required parameters_ 
